@@ -1,3 +1,7 @@
+# BOOKAPI
+# INSTALL
+1. Run composer install
+2. Change env.example to .env
 
 # DATABASE 
 ```mysql
