@@ -10,6 +10,7 @@
 # INSTALL
 1. Run composer install
 2. Copy env.example as .env
+3. Run below query or run php artisan migrate from console after create database 'bookapi'
 
 # DATABASE 
 ```
