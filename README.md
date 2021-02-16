@@ -1,5 +1,5 @@
 
-# DOCUMENTION
+# DOCUMENTATION
     https://documenter.getpostman.com/view/13490643/TWDTNz3S
 
 # INSTALL
