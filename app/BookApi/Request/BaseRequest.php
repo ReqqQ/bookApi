@@ -2,6 +2,7 @@
 
 namespace BookApi\Request;
 
+use BookApi\Interfaces\Request\RequestInterface;
 use Illuminate\Http\Request;
 use Illuminate\Validation\ValidationException;
 use Laravel\Lumen\Routing\ProvidesConvenienceMethods;
@@ -13,7 +14,7 @@ use Tymon\JWTAuth\Facades\JWTAuth;
  * Class BaseRequest
  * @package BookApi\Request
  */
-abstract class BaseRequest
+abstract class BaseRequest implements RequestInterface
 {
     use ProvidesConvenienceMethods;
 

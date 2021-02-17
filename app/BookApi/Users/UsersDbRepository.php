@@ -3,13 +3,14 @@
 namespace BookApi\Users;
 
 use App\Models\Users;
+use BookApi\Interfaces\Users\UsersDbRepositoryInterface;
 use Illuminate\Support\Collection;
 
 /**
  * Class UsersDbRepository
  * @package BookApi\Users
  */
-class UsersDbRepository
+class UsersDbRepository implements UsersDbRepositoryInterface
 {
     public Users $userModel;
 

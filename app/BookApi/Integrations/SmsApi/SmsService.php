@@ -2,6 +2,7 @@
 
 namespace BookApi\Integrations\SmsApi;
 
+use BookApi\Interfaces\Integrations\SmsServiceInterface;
 use Smsapi\Client\Curl\SmsapiHttpClient;
 use Smsapi\Client\Feature\Sms\Bag\SendSmsBag;
 use Smsapi\Client\Service\SmsapiPlService;
@@ -10,7 +11,7 @@ use Smsapi\Client\Service\SmsapiPlService;
  * Class SmsService
  * @package BookApi\Integrations\SmsApi
  */
-class SmsService
+class SmsService implements SmsServiceInterface
 {
     private const DELETE_MSG = 'Your account has been deleted.';
     private SmsapiHttpClient $smsapiHttpClient;

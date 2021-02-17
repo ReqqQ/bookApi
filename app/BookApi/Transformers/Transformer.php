@@ -8,7 +8,7 @@ use Illuminate\Support\Collection;
  * Class Transformer
  * @package BookApi\Transformers
  */
-class Transformer
+abstract class Transformer
 {
     protected const API_STATUSES = [];
 
